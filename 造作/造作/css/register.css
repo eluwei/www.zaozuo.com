@@ -1,0 +1,32 @@
+ @media (max-width: 1600px){ 
+     html{
+          font-size:14px;
+     }
+ }
+ @media (min-width: 1600px){
+     html{
+          font-size:16px;
+     }
+ }
+ body{
+     /*1520px*/
+     min-width: 1520px;
+     font-family: siyuan,"Microsoft YaHei",sans-serif;
+ }
+.loginFormWrap h1{
+     text-align: center;
+     margin-top: 3.5625rem;
+     font-size: 1rem;
+     font-weight: bold;
+     letter-spacing: 0.0625rem;
+
+}
+ .return{
+     font-size: 1.625rem;
+     position: absolute;
+     top: 1.4375rem;
+     left: 1.5625rem;
+     color: #d2d2d2;
+     cursor: pointer;
+}
+ 

@@ -1,0 +1,245 @@
+@media (max-width: 1600px){ 
+ 	html{
+ 		font-size:14px;
+ 	}
+ }
+ @media (min-width: 1600px){
+ 	html{
+ 		font-size:16px;
+ 	}
+ }
+body{
+     font-family: siyuan,"Microsoft YaHei",sans-serif;
+     min-width: 1000px;/* 1000px */
+}
+ .top{
+     height: 3.125rem;
+}
+/* 导航条 */
+ .person_nav{
+     width: 100%;
+     height: 3.125rem;
+     border-bottom: 0.0625rem solid #d2d2d2;
+     background: #f6f6f6;
+     position: relative;
+     margin-top: 3.125rem;
+}
+ .person_nav ul{
+     width: 56rem;
+     overflow: hidden;
+     margin-left: 7.375rem;
+}
+ .person_nav ul li{
+     width: auto;
+     height: 3.0625rem;
+     float: left;
+     margin-right: 2.8125rem;
+     text-align: center;
+     line-height: 3.0625rem;
+     color: #313131;
+     font-size: 0.875rem;
+     cursor: pointer;
+     position: relative;
+}
+/* 导航条下面的滚动黑条 */
+ .underline {
+     width: 3.5rem;
+     height: 0.1875rem;
+     position: absolute;
+     /* left: 7.375rem; */
+     bottom:-0.125rem;
+     z-index: 3;
+     background: #000;
+     display: none;
+}
+ .one{
+     position: absolute;
+     top: -0.5625rem;
+     left: 3.75rem;
+     display: block;
+     font-size: 0.5rem;
+}
+/* 个人信息 */
+ .wrap .person_mesg {
+     height: 9.6875rem;
+     width: 100%;
+     margin: 0 auto;
+}
+ .wrap .person_mesg .person_img{
+     display: inline-block;
+}
+ .wrap .person_mesg img{
+     margin-left: 3.125rem;
+     width: 5.625rem;
+     height: 5.625rem;
+     border-radius: 50%;
+     margin-top: 1.5625rem;
+}
+ .wrap .person_mesg .person_id{
+     font-size: 1rem;
+     display: inline-block;
+     margin-left: 1.875rem;
+     position: relative;
+     top: -2.5rem;
+}
+ .person_btn{
+     height: 100%;
+     float: right;
+     line-height: 8.125rem;
+}
+ .person_btn button{
+     outline: none;
+     border: 1px solid #d2d2d2;
+     border-radius: 0.3125rem;
+     width: 9.875rem;
+     height: 2.0625rem;
+     font-size: 0.875rem;
+     font-weight: 700;
+     cursor: pointer;
+     background: #fff;
+}
+ .person_mesg .hr {
+     width: 100%;
+     height: 0.5625rem;
+     border-radius: 0.3125rem;
+     background: #f6f6f6;
+     margin: 0 auto;
+     margin-top: 0.9375rem;
+}
+ li.per_current{
+     border-bottom: 0.1875rem solid #000;
+}
+/* 成为会员，享受丰富特权 */
+ .privilege{
+     width: 100%;
+     height: auto;
+}
+ .privilege h1,.message h1{
+     font-size: 1.25rem;
+     text-align: center;
+     font-weight: 700;
+     color: #313131;
+     padding: 2.1875rem 0 
+}
+ .privilege .pri_content{
+     width: 100%;
+     height: 22.5rem;
+     border: 1px solid #d2d2d2;
+     margin-top: 1.25rem;
+     box-sizing: border-box;
+}
+/* 完善任意2项资料即可快速成为会员，享受特权 */
+ .message{
+     height: auto;
+     width: 100%;
+}
+ .message .mes_content{
+     width: 100%;
+     border: 1px solid #d2d2d2;
+     box-sizing: border-box;
+}
+ .pri_content ul{
+     overflow: hidden;
+}
+ .pri_content ul li{
+     float: left;
+     width: 15.4375rem;
+     height: 6.25rem;
+     margin-top: 3.75rem;
+     text-align: center;
+     position: relative;
+}
+ .pri_img{
+     font-size: 1.75rem;
+     color: #313131;
+}
+ ._gift{
+     display: block;
+     font-size: 1rem;
+     color: black;
+     margin: 0 auto;
+     text-align: center;
+}
+ .pri_des{
+     display: block;
+     color: #d2d2d2;
+     font-size: 0.75rem;
+     text-align: center;
+}
+ .pri_red{
+     display: block;
+     position: absolute;
+     background: #e56a69;
+     border-radius: 0.9375rem;
+     font-weight: 700;
+     font-size: 0.875rem;
+     padding: 0.25rem;
+     color:white;
+     top: 0;
+     right: 2.1875rem;
+}
+ .mes_content{
+     padding: 3.125rem 0 
+}
+ .mes_content ul{
+     overflow: hidden;
+     margin: 0 auto;
+}
+ .mes_content>ul>li{
+     float: left;
+     width: 30.625rem;
+     height: 4.375rem;
+     margin: 0 auto;
+     box-sizing: border-box;
+     position: relative;
+     border-right: 0.0625rem solid #d2d2d2;
+     padding: 0 3.125rem;
+}
+ .mes_content>ul>li:last-child{
+     border: 0;
+}
+ .phone{
+     display: block;
+}
+ .phone1{
+     font-size: 0.875rem;
+     font-weight: 700;
+}
+ .phone2{
+     color: #d2d2d2;
+     font-size: 0.75rem;
+}
+ .bangding{
+     overflow: hidden;
+}
+ .bangding li{
+     float: left;
+     margin-right: 2.5rem;
+     position: relative;
+     padding-left: 0.625rem;
+     color: #707070;
+}
+ .bangding li::after{
+     content: '';
+     width: 0.25rem;
+     height: 0.25rem;
+     position: absolute;
+     left: 0;
+     top: 0.625rem;
+     background: #707070;
+}
+ .go{
+     position: absolute;
+     width: 6.25rem;
+     height: 2.25rem;
+     right: 2.5rem;
+     top: 0.625rem;
+     background: #313131;
+     color: #fff;
+     font-size: 0.875rem;
+     font-weight: 700;
+     border: none;
+     border-radius: 0.625rem;
+     padding: 0.3125rem 0.9375rem;
+}
+ 

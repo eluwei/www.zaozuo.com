@@ -1,0 +1,108 @@
+@media (min-width: 1000px){ 
+     html{
+          font-size:14px;
+     }
+ }
+ @media (min-width: 1600px){
+     html{
+          font-size:16px;
+     }
+ }
+body{
+     font-family: siyuan,"Microsoft YaHei",sans-serif;
+     min-width: 1000px;/* 1000px */
+}
+/* 内容区con */
+ .con{
+     width: 65rem;
+     height: 81.25rem;
+     margin: 3.125rem auto;
+}
+ .con ul li{
+     width: 15.3125rem;
+     height: 20rem;
+     float: left;
+     margin-right: 1.25rem;
+}
+ .con ul li:nth-of-type(4n){
+     margin-right: 0rem;
+}
+/* con的每一个li con_c，包括pic_t和pic_b两个div */
+ .con_c{
+     width: 15.3125rem;
+     height: 20rem;
+     position: relative;
+}
+/* 每个pic_t包括img和enter*/
+ .con_c .pic_t{
+     width: 15.3125rem;
+     height: 14.375rem;
+     margin: 0 auto;
+}
+ .pic_t img{
+     width: 15.3125rem;
+     height: 14.375rem;
+}
+/* enter包括enter_t和enter_b两个div，enter先隐藏起来*/
+ .con_c .enter{
+     top: 0rem;
+     left: 0rem;
+     background: rgba(255, 255, 255, 0.7);
+     display: none;
+     overflow: hidden;
+     position: absolute;
+}
+ .enter .enter_t{
+     width: 15.3125rem;
+     height: 15rem;
+     padding-top: 2.5rem;
+     box-sizing: border-box;
+     border-bottom: 0.0625rem solid #d2d2d2;
+}
+ .enter_t p{
+     width: 9.375rem;
+     font-size: 0.9375rem;
+     color: #373737;
+     line-height: 1.25rem;
+     padding: 0.9375rem;
+     box-sizing: border-box;
+     display: block;
+     text-align: center;
+     margin: 0 auto;
+     border: 5px solid #535353;
+}
+/* enter_b包括h3和span标签 */
+ .enter .enter_b{
+     width: 15.3125rem;
+     height: 3.125rem;
+     text-align: center;
+     font-size: 0.875rem;
+     margin-top: 0.9375rem;
+     color: #373737;
+}
+ .enter .enter_b h3{
+     margin-bottom: 0.5rem;
+}
+ .enter .enter_b span{
+     font-size: 0.875rem;
+     font-weight: bold;
+}
+/* 每个 .pic_b包括h3 h4和span标签*/
+ .con_c .pic_b{
+     height: 5.625rem;
+     text-align: center;
+}
+ .pic_b h3{
+     color: #313131;
+     cursor: pointer;
+     font-size: 1rem;
+}
+ .pic_b h4{
+     color: #313131;
+     margin-top: 0.3125rem;
+     margin-bottom: 0.3125rem;
+}
+ .pic_b span{
+     font-size: 0.75rem;
+     color: #808095;
+}

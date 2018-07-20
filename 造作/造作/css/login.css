@@ -1,0 +1,264 @@
+ @media (max-width: 1600px){ 
+     html{
+          font-size:14px;
+     }
+ }
+ @media (min-width: 1600px){
+     html{
+          font-size:16px;
+     }
+ }
+body{
+     min-width: 95rem;
+     font-family: siyuan,"Microsoft YaHei",sans-serif;
+}
+ .top{
+     width: 100%;
+     height: 3.125rem;
+     line-height: 1.875rem;
+     position: relative;
+     z-index: 999;
+}
+ .top h1{
+     width: 1.9375rem;
+     float: left;
+     margin-left: 7.125rem;
+     margin-top: 0.625rem;
+     margin-right: 1.875rem;
+}
+ .top h1 img{
+     width: 1.9375rem;
+}
+ .leftnav{
+     width: 62.5rem;
+     min-width: 62.5rem;
+     height: 3.125rem;
+}
+ .login_now{
+     border-bottom: 0.0625rem solid white;
+}
+ .leftnav li {
+     float: left;
+     width: auto;
+     margin-right:1.875rem;
+     color: white;
+     font-size: 0.75rem;
+     text-align: center;
+     line-height: 3.125rem;
+     height: 2.5rem;
+     cursor: pointer;
+}
+ .leftnav li:last-child{
+     margin-right: 0;
+}
+.slideul{
+     display: none;
+     width: 100%;
+     height: 7rem;
+     background:rgba(49,49,49,.95);
+     position: absolute;
+     left: 0rem;
+     overflow: hidden;
+     z-index: 1000;
+}
+ .slideul ul{
+     margin: 0 auto;
+     overflow: hidden;
+     height: 5.625rem;
+}
+ .slideul ul li{
+     text-align: center;
+     width: 6.25rem;
+     height: 5.625rem;
+     margin-right: 0.625rem;
+     float: left;
+     line-height: 5.625rem;
+     position: relative;
+}
+ .slideul ul li:last-child{
+     margin-right: 0rem;
+}
+ .slideul ul li img{
+     display: block;
+     margin: 0 auto;
+     text-align: center;
+     color: white;
+     width: 3.3125rem;
+     height: 3.4375rem;
+}
+ .slideul ul li .img_hover{
+     display: none;
+}
+ .img_block{
+     display: block;
+}
+ .slideul ul li span {
+     display: block;
+     width: 6.25rem;
+     height: 0.625rem;
+     color: #d2d2d2;
+     position: absolute;
+     bottom: 3.5rem;
+     left: 0rem;
+}
+ .slide_one,.slide_six,.slide_nine{
+     width: 33.75rem;
+}
+ .slide_two,.slide_three,.slide_eight{
+     width: 20rem;
+}
+ .slide_four{
+     width: 47.5rem;
+}
+ .slide_five{
+     width: 26.875rem;
+}
+ .slide_seven{
+     width: 54.375rem;
+}
+.bgwrap{
+     position:relative;
+}
+.bg{
+     width: 100%;
+     min-width:95rem;
+     height: 60rem;
+     position: absolute;
+     z-index: 1;
+     background: url('../images/login_bg.jpg') no-repeat;
+     background-size: 120%;
+}
+ .loginFormWrap{
+     width: 28.125rem;
+     height: 27.875rem;
+     background: white;
+     z-index: 999;
+     position: fixed;
+     top: 25%;
+     left: 50%;
+     margin-left: -14.0625rem;
+     box-sizing: border-box;
+     padding: 0 4.375rem;
+}
+ .login_title{
+     width: 22.5rem;
+     margin-top: 2.875rem;
+     height: 1.5625rem;
+     overflow: hidden;
+}
+ .login_title li{
+     font-family: "宋体";
+     font-weight: 700;
+     box-sizing: border-box;
+     float: left;
+     width: 11.25rem;
+     font-size: 1.3rem;
+     height: 1.5625rem;
+     padding: 0 2.1875rem;
+     border-right: 0.125rem solid #d2d2d2;
+     color: #a0a0a0;
+     line-height: 1.5625rem;
+     cursor: pointer;
+}
+ .login_title li:last-child{
+     border: none;
+}
+ .login_title .login_active{
+     color: #000;
+}
+ .login_input{
+     width: 20.625rem;
+     height: 10.3125rem;
+     margin: 0 auto;
+     margin-top: 3.125rem;
+     position: relative;
+}
+ .inputarea:nth-child(2){
+     width: 62%;
+}
+ .inputarea{
+     width: 100%;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     border-bottom: 0.0625rem solid #d2d2d2;
+     padding: 0.125rem 0.125rem;
+     margin-bottom: 2.5rem;
+}
+ .input_focus{
+     border-bottom: 0.0625rem solid black;
+}
+ .inputarea input{
+     border: 0;
+     outline: none;
+}
+ .inputarea .btn{
+     width: 6.75rem;
+     height: 2.625rem;
+     background: #d2d2d2;
+     position: absolute;
+     right: 0rem;
+     border: 0;
+     cursor: pointer;
+     color: white;
+}
+ .login_btn{
+     width: 100%;
+     height: 2.8125rem;
+     margin: 0 auto;
+     border: 0;
+     background: #d2d2d2;
+     cursor: pointer;
+     color: white;
+}
+ .wechat{
+     font-size: 0.875rem;
+     color: #a1a1a1;
+     display: block;
+     margin: 0 auto;
+     text-align: center;
+     width: 100%;
+     margin-top: 1.5625rem;
+     cursor: pointer;
+}
+ .regist{
+     font-size: 0.875rem;
+     color: #a1a1a1;
+     display: inline;
+}
+ .login2{
+     display: none;
+}
+ .loginFormWrap a{
+     font-size: 0.875rem;
+     text-decoration: none;
+     display: inline-block;
+     color: #000;
+}
+ .regist_wrap{
+     width: 100%;
+     margin: 0 auto;
+     margin-top: 1.875rem;
+     text-align: center;
+}
+ .myIcon{
+     width: 1.5625rem;
+     height: 1.5625rem;
+     line-height: 1.5625rem;
+     position: absolute;
+     right: 6.875rem;
+     margin-top: 0.75rem;
+     cursor: pointer;
+}
+ .shoppingCar{
+     width: 1.5625rem;
+     height: 1.5625rem;
+     position: absolute;
+     right: 3.9375rem;
+     margin-top: 0.75rem;
+     cursor: pointer;
+}
+ .myIcon img,.shoppingCar img{
+     width: 1.5625rem;
+     height: 1.5625rem;
+}
+ 

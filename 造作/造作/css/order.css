@@ -1,0 +1,351 @@
+@media (max-width: 1600px){ 
+     html{
+          font-size:14px;
+     }
+}
+@media (min-width: 1600px){
+     html{
+          font-size:16px;
+     }
+}
+body{
+      background: #f6f6f6;
+      min-width: 1080px;
+      font-family: siyuan,"Microsoft YaHei",sans-serif;
+ }
+html{
+     width: 100%;
+}
+/* 导航条 */
+ .person_nav{
+     width: 100%;
+     height: 3.125rem;
+     border-bottom: 0.0625rem solid #d2d2d2;
+     background: #f6f6f6;
+     position: relative;
+     margin-top: 3.125rem;
+}
+ .person_nav ul{
+     width: 56rem;
+     overflow: hidden;
+     margin-left: 7.375rem;
+}
+ .person_nav ul li{
+     width: auto;
+     height: 3.0625rem;
+     float: left;
+     margin-right: 2.8125rem;
+     text-align: center;
+     line-height: 3.0625rem;
+     color: #313131;
+     font-size: 0.875rem;
+     cursor: pointer;
+     position: relative;
+}
+ .person_nav ul li.per_current{
+     border-bottom: 0.1875rem solid #000;
+}
+/* 导航条下面的滚动黑条 */
+ .underline {
+     width: 3.5rem;
+     height: 0.1875rem;
+     position: absolute;
+     bottom:-0.125rem;
+     z-index: 3;
+     background: #000;
+     display: none;
+}
+/* 订单others内容 */
+ .orders{
+     width: 67.5rem;
+     height: 3.125rem;
+     background: white;
+     margin: 1.875rem auto 0rem auto;
+}
+ .orders ul{
+     width: 37.5rem;
+     height: 3.125rem;
+}
+ .orders ul li{
+     height: 3.125rem;
+     line-height: 3.125rem;
+     text-align: center;
+     font-size: 0.875rem;
+     float: left;
+     margin: 0rem 1.5625rem;
+     cursor: pointer;
+}
+ .orders ul li.current{
+     color: #5bb688;
+}
+ .orders ul li span{
+     float: left;
+     margin-right: 0.3125rem;
+}
+ .enter_pic{
+     height: 3.125rem;
+     float: left;
+     position: relative;
+}
+ .enter_pic .enter_p{
+     display: inline-block;
+     width: 1.25rem;
+     height: 1.25rem;
+     margin-top: 0.9375rem;
+     background: url('../images/tubiao3.png') no-repeat -401px -20px;
+}
+ .enter_pic .enter_p2{
+     display: inline-block;
+     width: 1.25rem;
+     height: 0.9375rem;
+     margin-top: 2.625rem;
+     margin-left: -1.4375rem;
+     background: url('../images/tubiao1.png') no-repeat -226px -13px;
+     display: none;
+}
+/* 鼠标移入图片时显示一个内容框enter，移出图片及内容框时内容框隐藏 */
+ .enter_pic .enter{
+     width: 28.75rem;
+     height: 12.5rem;
+     background: black;
+     padding: 1.875rem;
+     box-sizing: border-box;
+     margin-left: -5.625rem;
+     top: 3.125rem;
+     display: none;
+     position: absolute;
+}
+ .enter_pic .enter p{
+     color: #e1e1e1;
+     line-height: 1.5625rem;
+     font-size: 0.9375rem;
+     text-align: left;
+     margin-bottom: 1.25rem;
+}
+/* h1 */
+ .order_t{
+     width: 67.5rem;
+     height: 4.375rem;
+     line-height: 4.375rem;
+     font-size: 1.5rem;
+     padding-left: 3.125rem;
+     margin: 0 auto;
+     font-weight: 400;
+}
+/* 订单信息orders_info，包括 orders_info_t和orders_info_b两部分*/
+ .orders_info{
+     width: 67.5rem;
+     height: 21.25rem;
+     background: white;
+     margin: 0 auto;
+     padding: 1.5625rem 1.5625rem;
+     box-sizing: border-box;
+     margin-bottom: 3.125rem;
+}
+/* 订单信息orders_info_t */
+ .orders_info .orders_info_t{
+     width: 67.5rem;
+     height: 7.5rem;
+}
+ .orders_info_t span{
+     width: 31.25rem;
+     font-size: 1.375rem;
+}
+ .orders_info_t p{
+     width: 31.25rem;
+     height: 1.875rem;
+     line-height: 1.875rem;
+     font-size: 0.875rem;
+     color: #707070;
+}
+ .orders_info_t .p1{
+     margin-top: 1.25rem;
+}
+ .orders_info_t .pay{
+     width: 7.8125rem;
+     height: 2.5rem;
+     background: black;
+     color: white;
+     font-size: 0.875rem;
+     float: right;
+     margin-right: 4.375rem;
+     margin-top: -6.25rem;
+}
+ .orders_info_t .pay:hover{
+     background: rgba(0, 0, 0, 0.8);
+}
+ .orders_info_t button{
+     border: none;
+ }
+ .orders_info_t .del{
+     width: 1.25rem;
+     height: 1.25rem;
+     font-size: 1.375rem;
+     color: #b5b5b5;
+     float: right;
+     margin-right: 1.5625rem;
+     margin-top: -7.5rem;
+     cursor: pointer;
+}
+/* 取消订单信息框 */
+ .del_infos{
+     top: 0rem;
+     left: 0rem;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 999;
+     background: rgba(0, 0, 0, 0.5);
+     display: none;
+}
+ .del_info{
+     width: 25rem;
+     height: 15rem;
+     padding: 3.75rem;
+     box-sizing: border-box;
+     background: white;
+     top: 50%;
+     margin-top: -7.5rem;
+     left: 50%;
+     margin-left: -12.5rem;
+    /* margin: 0rem auto;
+     */
+     position: relative;
+}
+ .del_info span{
+     width: 9.6875rem;
+     margin-left: 3.75rem;
+     font-size: 1.375rem;
+}
+ .del_info p{
+     font-size: 0.875rem;
+     width: 17.5rem;
+     line-height: 1.25rem;
+     text-align: left;
+     color: #959595;
+     margin-top: 0.9375rem;
+}
+/* 确认取消按钮 */
+ .del_info .btn{
+     width: 7.5rem;
+     height: 2.5rem;
+     background: black;
+     color: white;
+     font-size: 0.875rem;
+     text-align: center;
+     line-height: 2.5rem;
+     margin: 2.1875rem auto;
+}
+ .del_info .btn:hover{
+     background: rgba(0, 0, 0, 0.7);
+}
+/* 取消该“取消订单”页面*/
+ .del_info .del_2{
+     width: 1.25rem;
+     height: 1.25rem;
+     display: inline-block;
+     top: 0.625rem;
+     right: 0.625rem;
+    /* top: 10.9375rem;
+     right: 28.4375rem;
+     */
+     position: absolute;
+     cursor: pointer;
+}
+/* 中间横线 */
+ .orders_info_c{
+     width: 65rem;
+     height: 0.3125rem;
+     background: #f6f6f6;
+}
+/* 订单信息orders_info_b */
+ .orders_info_b{
+     height: 12.5rem;
+     margin-top: 1.25rem;
+}
+/* 商品图片 */
+ .orders_info_b .pic{
+     width: 11.25rem;
+     height: 9.375rem;
+     float: left;
+}
+ .pic img{
+     width: 9.375rem;
+     height: 9.375rem;
+}
+ .pic div{
+     width: 9.375rem;
+     height: 9.375rem;
+     margin-top: -9.375rem;
+     position: absolute;
+     background: rgba(0, 0, 0, 0.1);
+     display: none;
+}
+/* 商品信息，包括名称、价格、数量、颜色、款型、发货时间 */
+ .orders_info_b .pic_info{
+     width: 50rem;
+     height: 9.375rem;
+     float: left;
+}
+ .pic_info_price{
+     height: 1.875rem;
+}
+ .pic_info .pic_info_price p{
+     width: 6.25rem;
+     height: 1.875rem;
+     font-size: 1.125rem;
+     font-weight: bold;
+     display: block;
+     float: left;
+}
+ .pic_info .pic_info_price span{
+     width: 6.875rem;
+     font-size: 1.25rem;
+     color: #313131;
+}
+ .pic_info_color{
+     height: 1.875rem;
+     line-height: 1.875rem;
+     font-size: 0.8125rem;
+     color: #707070;
+     text-align: left;
+}
+ .pic_info_time{
+     height: 1.25rem;
+     margin-top: 3.75rem;
+}
+ .pic_info_time span{
+     width: 1.25rem;
+     height: 1.25rem;
+     display: inline-block;
+     float: left;
+     background: url('../images/tubiao3.png') no-repeat -242px -21px;
+}
+ .pic_info_time p{
+     font-size: 0.8125rem;
+     line-height: 1.25rem;
+     float: left;
+}
+/* 空订单 */
+ .order_no{
+     height: 25.625rem;
+     display: none;
+}
+ .order_no div{
+     width: 11.875rem;
+     height: 20.625rem;
+     margin: 0rem auto;
+}
+ .order_no div span{
+     width: 11.875rem;
+     height: 11.875rem;
+     display: inline-block;
+     margin-top: 6.875rem;
+     background: url('../images/tubiao4.png') no-repeat -32.1875rem 0.3125rem;
+}
+ .order_no p{
+     text-align: center;
+     font-size: 1.125rem;
+     color: #c8c7c7;
+}
+

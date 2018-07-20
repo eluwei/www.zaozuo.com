@@ -1,0 +1,490 @@
+/*
+* @Author: admin
+* @Date:   2018-06-28 14:34:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-01 13:06:48
+*/
+@media (max-width: 1600px){ 
+	html{
+		font-size:14px;
+	}
+}
+@media (min-width: 1600px){
+	html{
+		font-size:16px;
+	}
+}
+body{
+	min-width: 1200px;
+	font-family: siyuan,"Microsoft YaHei",sans-serif;		
+}
+*{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     box-sizing: border-box;
+}
+/* 商品详情内容区 */
+ .exam_container{
+     width: 100%;
+    /* background: lime;
+     */
+}
+ .exam_container .exam_buy{
+     width: 100%;
+     height: 38.75rem;
+     display: inline-block 
+}
+ .exam_container .exam_buy div:nth-child(1){
+     height: 38.75rem;
+     width: 60%;
+     position: relative;
+     float: left;
+    overflow: hidden;
+}
+/* 图像 */
+ .exam_container .exam_buy div img{
+     width: 45rem;
+     height: 25rem;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin-left: -22.5rem;
+     margin-top: -12.5rem;
+}
+/* 右边 */
+ .exam_container .exam_buy div:nth-child(2){
+     height: 38.75rem;
+     width: 26rem;
+     padding-top: 6.25rem;
+     padding-bottom: 9.375rem;
+     float: left;
+}
+/* 右边文字样式 */
+ .exam_container .exam_buy div p{
+     line-height: 2.1875rem;
+     font-size: 1.375rem;
+     letter-spacing: 0.0625rem;
+}
+ .exam_buy div p:nth-child(1),.exam_buy div p:nth-child(2){
+     font-weight: 700;
+     line-height: 2.5rem;
+}
+ .exam_container .exam_buy div p:nth-child(3){
+     padding: 0.3125rem 0.5rem;
+     margin-bottom: 0.625rem;
+     cursor: pointer;
+     background: #e56a69;
+     color: #fff;
+     font-size: 1rem;
+}
+ .exam_container .exam_buy div p:nth-child(4){
+     height: auto;
+     line-height: 1.25rem;
+     padding: 0.3125rem 0.5rem;
+     background: #f9f9f9;
+     font-size: 0.875rem;
+     margin-bottom: 1.875rem;
+}
+ .exam_container .exam_buy>div:nth-child(2) .color{
+     width: 5.25rem;
+     height: 2.5rem;
+     line-height: 2.5rem;
+     display: inline-block;
+     float: left;
+     margin-right: 1rem;
+     text-align-last: justify;
+}
+ .exam_container .exam_buy div:nth-child(2) .e_color{
+     width: 2.625rem;
+     height: 2.625rem;
+     border: 1px solid #d2d2d2;
+     display: inline-block;
+     float: left;
+     margin-right: 0.9375rem;
+}
+ .exam_container .exam_buy div:nth-child(2) .e_color b{
+     width: 1.875rem;
+     height: 1.875rem;
+     margin: 0.3125rem;
+     display: inline-block;
+     background: #000;
+}
+ .exam_container .exam_buy div:nth-child(2) .e_color:nth-child(3) b{
+     background: #d2d2d2;
+}
+ .exam_container .exam_buy .buy{
+     margin-top: 3.125rem;
+}
+ .exam_container .exam_buy .buy div{
+     border: 2px solid #000;
+     width: 4.625rem;
+     height: 3.125rem;
+     text-align: center;
+}
+ .exam_container .exam_buy .buy span{
+     width: 1.53rem;
+     height: 1.5rem;
+     line-height: 1.5rem;
+     float: left;
+     border-bottom: 0.0625rem solid #000;
+}
+ .exam_container .exam_buy .buy span:first-child{
+     width: 2.83rem;
+     height: 3rem;
+     line-height: 3rem;
+     border-right: 0.0625rem solid #000;
+}
+.exam_buy .buy span:nth-child(2):hover,.exam_buy .buy span:nth-child(3):hover{
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+}
+ .exam_container .exam_buy .buy button:nth-child(2){
+     width: 6.25rem;
+     height: 3.125rem;
+     border: 2px solid #000;
+     background: #fff;
+     margin:0 0.9375rem;
+     cursor: pointer;
+}
+ .exam_container .exam_buy .buy button:nth-child(2):hover{
+     background: #000;
+     color: #fff;
+ }
+ .exam_container .exam_buy .buy button:nth-child(3){
+     width: 9.375rem;
+     height: 3.125rem;
+     border:none;
+     background: linear-gradient(to bottom,#3d3d3d 0,#000 100%);
+     color: #fff;
+     cursor: pointer;
+}
+.exam_container .exam_buy .buy button:nth-child(3):hover{
+     background: #000;
+}
+/* 设计师腰带 */
+.exam_container .exam_intro{
+     position: relative;
+     color: #fff;
+}
+.exam_container .exam_intro div:nth-child(1)>img{
+     width: 100%;
+}
+.exam_container .exam_intro .exam_introLeft{
+     position: absolute;
+     left: 15%;
+     top: 20%;
+}
+.exam_introLeft img{
+     width: 8.125rem;
+     height: 8.125rem;
+     margin-bottom: 1.25rem;
+}
+ .exam_introLeft h2{
+     font-size: 2.125rem;
+     line-height: 3.125rem;
+     font-weight: 500;
+     letter-spacing: 0.125rem;
+}
+ .exam_introLeft p{
+     line-height: 2.5rem;
+     font-size: 1.625rem;
+     letter-spacing: 0.0625rem;
+     margin-bottom: 1.625rem;
+}
+ .exam_introLeft span{
+     padding: 0.3125rem 0.9375rem;
+     font-size: 1rem;
+     font-weight: bold;
+     border: 2px solid #fff;
+     border-radius: 1.5625rem;
+}
+ .exam_container .exam_intro .exam_introRight{
+     position: absolute;
+     left: 60%;
+     top: 40%;
+}
+ .exam_container .exam_intro .exam_introRight p{
+     width: 32.5rem;
+     height: auto;
+     font-size: 0.8125rem;
+     letter-spacing: 0.125rem;
+     line-height: 1.375rem;
+}
+/* 商品详情图片 */
+ .exam_container .exam_msg{
+     width: 70%;
+     margin: 0 auto;
+}
+ .exam_container .exam_msg img{
+     width: 100%;
+     height: auto;
+}
+/* 看真实生活里的美学 */
+ .exam_container .exam_look h2,.exam_recommend h2,.exam_Drecomm h2,.exam_server h2{
+     font-size: 2.2rem;
+     line-height: 2.2rem;
+     padding: 2.5rem 0rem 2rem;
+     text-align: center;
+}
+ .exam_container .exam_look dl{
+     width: 100%;
+}
+ .exam_container .exam_look dl dt{
+     width: 24.525%;
+     height: auto;
+     margin-right: 0.6%;
+     float: left;
+}
+ .exam_container .exam_look dl dt:last-child{
+     margin-right: 0;
+}
+ .exam_container .exam_look dl dt img{
+     width: 100%;
+     height: auto;
+}
+/* 清浮动 */
+ .clearfixed::after {
+     content: ".";
+     display: block;
+     clear: both;
+     height: 0;
+     visibility: hidden;
+}
+/* 官方推荐 */
+ .exam_container .exam_recommend{
+     width: 80%;
+     margin: 0 auto;
+     padding: 1.25rem 6.25rem;
+     margin-bottom: 3.125rem;
+     min-width: 1200px; 
+}
+ .exam_container .exam_recommend div{
+     display: inline-block;
+     margin-right: 2.25rem;
+     margin-left: 2.25rem;
+     text-align: center;
+     font-size: 0.75rem;
+     float: left;
+}
+.exam_recommend .add{
+     font-size: 30px;
+     line-height: 186px;
+     height: 186px;
+     float: left;
+     display: inline-block;
+}
+ .exam_container .exam_recommend div p{
+     line-height: 1.75rem;
+}
+ .exam_container .exam_recommend div:nth-child(5){
+     float: right;
+     margin-right: 0;
+     padding-left: 3.125rem;
+     border-left: 0.0625rem solid lightgray;
+     width: 18.75rem;
+     height: 11.25rem;
+     text-align: left;
+     padding-top: 1.5rem;
+}
+ .exam_container .exam_recommend div:nth-child(5) p{
+     line-height: 1.875rem;
+}
+ .exam_container .exam_recommend div>span{
+     width: 8.125rem;
+     height: 8.125rem;
+     background: url('../images/e_9.jpg') no-repeat 100%;
+     background-size: 100%;
+     display: block;
+}
+ .exam_container .exam_recommend div button{
+     width: 7rem;
+     height: 2.2rem;
+     line-height: 2.2rem;
+     font-size: .9rem;
+     background: #313131;
+     text-align: center;
+     color: #fff;
+     cursor: pointer;
+     font-weight: 400;
+     border: none;
+     margin-top: 0.625rem;
+}
+ .exam_container .exam_Drecomm{
+     width: 100%;
+     margin-bottom: 1.875rem;
+}
+ .exam_container .exam_Drecomm .con{
+     width: 75rem;
+     height: auto;
+     margin: 0 auto;
+}
+ .exam_container .exam_Drecomm .con ul{
+     width: 100%;
+}
+ .exam_container .exam_Drecomm .con ul li{
+     width: 19.4%;
+     height: 20rem;
+     float: left;
+     margin-right: 0.75%;
+}
+ .exam_container .exam_Drecomm .con ul li:last-child{
+     margin-right: 0;
+}
+ .exam_container .exam_server{
+     min-width: 75rem;
+     width: 100%;
+     color: #fff;
+     position: relative;
+}
+ .exam_container .exam_server div>img{
+     width: 100%;
+     height: auto;
+}
+ .exam_container .exam_server .server{
+     width: 100%;
+     position: absolute;
+     top: 0;
+     margin-top: 3.75rem;
+}
+ .exam_server .server .bg_ul{
+     width: 75rem;
+     margin: 0 auto;
+     margin-top: 3.75rem;
+}
+ .exam_server .server .bg_ul li{
+     width: 18.75rem;
+     height: 9.375rem;
+     float: left;
+} 
+.exam_server .server .bg_ul li img{
+    display: block;
+    width: 4.0625rem;
+    height: 3.75rem;
+    margin: 0 auto;
+    background: url('../images/icon/ul_bg.png');
+    background-position: -128px -64px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.server .bg_ul li:nth-child(2) img{
+         background-position: -192px 0;
+}
+.server .bg_ul li:nth-child(3) img{
+         background-position: -254px 0;
+}
+.server .bg_ul li:nth-child(4) img{
+         background-position: -320px 0;
+}
+.server .bg_ul li .small_des,.big_des{
+     display: block;
+     font-size: 0.75rem;
+     color: #d2d2d2;
+     width: 100%;
+     text-align: center;
+     margin-top: 0.625rem;
+     cursor: pointer;
+}
+ .server .bg_ul li .big_des{
+     font-size: 1.25rem;
+     margin-top: 0.3125rem;
+     letter-spacing: 0.625rem;
+}
+/* 晒单 */
+ .exam_container .exam_order{
+     width: 100%;
+}
+ .exam_container .exam_order .order_con{
+     width: 75rem;
+     margin: 0 auto;
+}
+ .exam_container .exam_order .order_con div:first-child{
+     width: 100%;
+     text-align: center;
+}
+ .exam_container .exam_order .order_con div:first-child ul{
+     width: auto;
+     display: inline-block;
+     margin: 0 auto;
+}
+ .exam_container .exam_order .order_con div:first-child ul li{
+     float: left;
+     width: 8rem;
+     margin-right: 2rem;
+     height: 6rem;
+     line-height: 6rem;
+     text-align: center;
+     font-size: 1.5rem;
+     position: relative;
+}
+.order_con div:first-child ul li.current{
+    border-bottom: 0.3125rem solid #000;
+}
+.order_con div:first-child ul li b{
+    position: absolute;
+    right: 1rem;
+    top: -.5rem;
+    z-index: 2;
+    font-size: .8rem;
+}
+
+.exam_order .order_con .lookOrder{
+     width: 100%;
+     padding: 1.25rem 0;
+}
+ .order_con .lookOrder ul li{
+     float: left;
+}
+ .order_con .lookOrder ul li>img{
+     width: 3.125rem;
+     height: auto;
+     border-radius: 50%;
+     margin-right: 1.375rem;
+}
+ .order_con .lookOrder ul li p{
+     line-height: 1.875rem;
+}
+ .order_con .lookOrder ul li p:last-child{
+     color: #6a6457;
+     letter-spacing: 0.0625rem;
+}
+ .order_con .lookOrder ul li div img{
+     width: 11.25rem;
+     height: 11.25rem;
+     margin-right: 0.625rem;
+     margin-top: 0.625rem;
+}
+ .order_con .lookOrder ul li:nth-child(2){
+    width: 75%;
+ }
+ .order_con .lookOrder ul li:last-child{
+     width: 9.3125rem;
+     height: 4.0625rem;
+     float: right;
+}
+ .order_con .lookOrder ul li:last-child span{
+     width: 9.3125rem;
+     height: 4.0625rem;
+     display: block;
+     background: url('../images/e_14.png') no-repeat left top;
+     background-size: 100%;
+}
+ .exam_order button{
+    width: 26.25rem;
+     height: 2.875rem;
+     margin: 0 auto;
+     display: block;
+     line-height: 3rem;
+     border: 1px solid #000;
+     color: #000;
+     background: #fff;
+     font-size: .9rem;
+     margin-top: 3rem;
+     letter-spacing: 0.125rem;
+}
+ .exam_order button:hover{
+     cursor: pointer;
+     background: #000;
+     color: #fff;
+ }

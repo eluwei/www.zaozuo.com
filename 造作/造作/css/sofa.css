@@ -1,0 +1,109 @@
+body{
+	min-width: 1520px;
+    font-family: siyuan,"Microsoft YaHei",sans-serif;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.top{
+	/* width: 100%; */
+	height: 100px;
+	background: #3b3b3b;
+}
+/* 内容区con */
+.con{
+	width: 1040px;
+	height: 1130px;
+	margin: 50px auto;
+}
+ul li{
+	width: 245px;
+	height: 280px;
+	float: left;
+	margin-right: 20px;
+}
+ul li:nth-of-type(4n){
+	margin-right: 0px;
+}
+/* con的每一个li con_c，包括pic_t和pic_b两个div */
+.con_c{
+	width: 245px;
+	height: 280px;
+	position: relative;
+}
+/* 每个pic_t包括img和enter*/
+.con_c .pic_t{
+	width: 245px;
+	height: 190px;
+	margin: 0 auto;
+}
+img{
+	width: 245px;
+	height: 190px;
+}
+/* enter包括enter_t和enter_b两个div，enter先隐藏起来*/
+.con_c .enter{
+	top: 0px;
+	left: 0px;
+	background: rgba(255, 255, 255, 0.7);
+	display: none;
+	overflow: hidden;
+	position: absolute;
+}
+.enter .enter_t{
+	width: 245px;
+	height: 205px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d2d2d2;
+}
+.enter_t p{
+	width: 160px;
+	font-size: 15px;
+	color: #373737;
+	line-height: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	margin: 0 auto;			
+	border: 5px solid #535353;
+}
+/* enter_b包括h3和span标签 */
+.enter .enter_b{
+	width: 245px;
+	height: 50px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
+	color: #373737;
+}
+.enter .enter_b h3{
+	margin-bottom: 8px;
+}
+.enter .enter_b span{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* 每个 .pic_b包括h3 h4和span标签*/
+.con_c .pic_b{
+	height: 90px;
+	text-align: center;
+}
+.pic_b h3{
+	color: #313131;
+	cursor: pointer;
+	font-size: 16px;
+}
+.pic_b h4{	
+	color: #313131;	
+	margin-top: 5px;	
+	margin-bottom: 5px;
+}
+.pic_b span{
+	font-size: 12px;
+	color: #808095;
+}

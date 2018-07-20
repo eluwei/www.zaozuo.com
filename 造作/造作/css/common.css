@@ -1,0 +1,220 @@
+/* * @Author: admin * @Date: 2018-06-19 11:09:50 * @Last Modified by:   Administrator
+/* footer */
+@media (min-width: 1000px){ 
+     html{
+          font-size:14px;
+     }
+ }
+ @media (min-width: 1600px){
+     html{
+          font-size:16px;
+     }
+ }
+body{
+     font-family: siyuan,"Microsoft YaHei",sans-serif;
+}
+ .footer{
+     height: 34.375rem;
+     background: #1b1b1b;
+     color: white;
+     margin-top: 6.25rem;
+     overflow: hidden;
+}
+/* footer内容区footer_c */
+ .footer .footer_c{
+     width: 65rem;
+     height: 31.25rem;
+     margin: 6.25rem auto;
+}
+/* footer_c的主要内容部分footer_t */
+ .footer_c .footer_t{
+     width: 65rem;
+     height: 16.5625rem;
+    /* margin-top:3.125rem;
+     */
+     border-bottom: 0.0625rem solid white;
+}
+/* footer_t左边footer_tl */
+ .footer_t .footer_tl{
+     width: 13.125rem;
+     height: 13.75rem;
+     float: left;
+}
+ .footer_tl img{
+     width: 12.5rem;
+     height: 1.4375rem;
+}
+ .footer_tl span{
+     display: block;
+     width: 13.75rem;
+     height: 1.875rem;
+     font-size: 1.5rem;
+     margin-top: 0.625rem;
+     margin-left: 0.5rem;
+     cursor: pointer;
+}
+ .tubiao{
+     margin-top: 2.5rem;
+     margin-left: 0.5rem;
+}
+ .tubiao1,.tubiao2{
+     display: inline-block;
+     width: 2.1875rem;
+     height: 2.1875rem;
+     border: 1px solid white;
+     border-radius: 50%;
+}
+.footer_tl .tubiao1{
+     background: url('../images/tubiao1.png') no-repeat -73px 0px;
+}
+.footer_tl .tubiao2{
+     margin-left: 5px;
+     background: url('../images/tubiao1.png') no-repeat -108px -1px;
+}
+/* footer_t中间footer_c */
+ .footer_t .footer_tc{
+     width: 30.625rem;
+     height: 11.875rem;
+     border-left: 0.125rem solid #a0a0a0;
+     border-right: 0.125rem solid #a0a0a0;
+     float: left;
+}
+ .footer_tc{
+     padding-left: 2.5rem;
+     box-sizing: border-box;
+}
+ .footer_tc li{
+     float: left;
+     text-align: left;
+     font-size: 0.8125rem;
+}
+ .footer_tc li.current{
+     height: 1.875rem;
+     width: 3.4375rem;
+     color: #a0a0a0;
+     margin-right: 3.4375rem;
+     border-bottom: 0.0625rem solid #a0a0a0;
+     ;
+}
+ .footer_tc_ol li{
+     height: 2.1875rem;
+     line-height: 2.1875rem;
+     width: 6.5625rem;
+     color: #d2d2d2;
+     cursor: pointer;
+}
+ .footer_tc_ol li:hover{
+     color: white;
+}
+ .footer_tc_ol li:nth-of-type(1){
+     margin-top: 1.875rem;
+}
+/* footer_t右边footer_tr */
+ .footer_t .footer_tr{
+     width: 21.25rem;
+     height: 13.75rem;
+     float: right;
+}
+ .footer_tr .footer_tr_t{
+     width: 18.125rem;
+     height: 7.5rem;
+     margin-left: 1.875rem;
+     border-bottom: 0.0625rem solid #a0a0a0;
+}
+ .footer_tr_t span{
+     height: 3.125rem;
+     font-size: 0.8125rem;
+     color: #a0a0a0;
+}
+ .footer_tr_t p{
+     width: 15.625rem;
+     height: 1.875rem;
+     line-height: 1.875rem;
+     font-size: 1.25rem;
+     margin-top: 0.625rem;
+}
+ .footer_tr_t p span{
+     margin-left: 1.875rem;
+     font-size: 1rem;
+     color: white;
+}
+ .footer_tr_t .kefu{
+     width: 5rem;
+     height: 1.875rem;
+     text-align: center;
+     line-height: 1.875rem;
+     font-size: 0.8125rem;
+     border: 1px solid white;
+     border-radius: 25px;
+     background: white;
+     float: left;
+     margin-top: 0.625rem;
+     color: #000;
+     cursor: pointer;
+}
+ .kefu:hover{
+     color: white;
+     background: #1b1b1b;
+}
+ .footer_tr_b ul{
+     width: 21.25rem;
+     height: 6.25rem;
+     padding-left: 1.875rem;
+     box-sizing: border-box;
+     margin-top: 1.5625rem;
+}
+ .footer_tr_b ul li{
+     width: 9.0625rem;
+     height: 1.25rem;
+     float: left;
+     font-size: 0.8125rem;
+     color: #d2d2d2;
+     margin-bottom: 0.625rem;
+     cursor: pointer;
+     margin-right: 0rem;
+}
+ .footer_tr_b span{
+     display: block;
+     float: left;
+     width: 1.25rem;
+     height: 1.125rem;
+     background: url('../images/tubiao3.png') no-repeat -164px -23px;
+}
+ .footer_tr_b ul li:nth-of-type(1){
+     margin-right: 0.9375rem;
+     border-right: 0.0625rem solid #d2d2d2;
+}
+ .footer_tr_b ul li:nth-of-type(3){
+     margin-right: 0.9375rem;
+     border-right: 0.0625rem solid #d2d2d2;
+}
+ .footer_tr_b ul li:hover{
+     color: white;
+}
+/* footer_c的页脚部分footer_b */
+ .footer_c .footer_b{
+     width: 65rem;
+     height: 14.375rem;
+     font-size: 0.8125rem;
+     color: #a0a0a0;
+     margin-top: 2.5rem;
+     text-align: center;
+}
+ .footer_c p{
+     width: 65rem;
+     height: 1.25rem;
+     margin-bottom: 0.5rem;
+}
+ .footer_c .p_1 {
+     cursor: pointer;
+}
+ .footer_c .p_2{
+     cursor: pointer;
+}
+ .clearfixed::after {
+     content: ".";
+     display: block;
+     clear: both;
+     height: 0;
+     visibility: hidden;
+}
